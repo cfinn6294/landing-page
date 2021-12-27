@@ -6,15 +6,21 @@
     margin: 0px;
 }
 
-.navbar {
-    background-color: #1f2937;
-    display: flex;
-    padding-left: 60px;
-    padding-right: 60px;
+header {
+    padding-left: 200px;
+    padding-right: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
+    background-color: #1f2937;
+}
+
+.navbar {
+    display: flex;
     align-items: center;
-    
+}
+
+.header-content {
+    padding: 150px;
 }
 
 .navbar-logo {
