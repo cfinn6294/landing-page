@@ -86,3 +86,32 @@ header img {
     font-size: 36px;
     font-weight: 800;
 }
+.images {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+.images img {
+    width: 175px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 250px;
+}
+
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    display: flex;
+    text-align: center;
+}
+.quote-attribution {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: right;
+    padding: 10px;
+}
