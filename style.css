@@ -88,14 +88,23 @@ header img {
 }
 .images {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: baseline;
     padding-top: 50px;
+}
+.image-card{
+    width: 200px;
+    height: auto;
+    font-size: 18px;
+    font-weight: normal;
+
 }
 .images img {
     width: 175px;
     height: auto;
     border-radius: 10px;
 }
+
 
 .quote {
     background-color: #E5E7EB;
@@ -114,4 +123,56 @@ header img {
     color: #1f2937;
     text-align: right;
     padding: 10px;
+}
+.call-to-action {
+    background-color: white;
+    height: 300px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.call-to-action-card {
+    height: 100px;
+    width: 700px;
+    background-color: #3882F6;
+    border-radius: 15px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.call-to-action-card-left {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    max-width: 75%;
+}
+.call-to-action-card-left-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.call-to-action-card-right button{
+    border: solid white;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    font-size: 12px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
